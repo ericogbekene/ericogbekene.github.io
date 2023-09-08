@@ -15,8 +15,8 @@ function updateDateTime(){
             const seconds = formatWithLeadingZero(now.getUTCSeconds());
             const currentTime = `${hours}:${minutes}:${seconds} UTC`;
 
-            currentDayOfTheWeek.textContent = `Current Day: ${dayOfWeek}`;
-            currentUTCTime.textContent = `Current UTC Time: ${currentTime}`;
+            currentDayOfTheWeek.textContent = ` ${dayOfWeek}`;
+            currentUTCTime.textContent = `${currentTime}`;
 }
 // Update date and time initially
 updateDateTime();
